@@ -50,3 +50,14 @@ Install required libraries:
 
 ```bash
 pip install opencv-python pillow numpy
+How_It_Works:
+  - step: "User uploads a grayscale image using the 'Upload Image' button."
+  - step: "Image is converted to the frequency domain using Fast Fourier Transform (FFT)."
+  - step: "A Butterworth High-Pass Filter is applied with parameters:"
+    details:
+      - "Cutoff Frequency (D0)"
+      - "Filter Order (n)"
+  - step: "Filtered result is transformed back to the spatial domain using Inverse FFT."
+  - step: "The output is normalized and displayed."
+  - step: "Slider adjustments dynamically update the filtered image in real-time."
+
