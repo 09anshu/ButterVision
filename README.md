@@ -38,7 +38,7 @@ This project focuses on frequency domain filtering techniques, specifically usin
 
 Here’s a glimpse of the user interface:
 
-![ButterVision GUI](./1486a746-8568-4c85-bb96-befcafd1259c.png)
+![ButterVision GUI](./GUI.png)
 
 ---
 
